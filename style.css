@@ -1,5 +1,5 @@
 body {
-    background-color: aqua;
+    
     margin: 0;
 }
 
@@ -59,20 +59,22 @@ nav a {
     background-color: lavender;
     display: flex;
     flex-direction: row;
+    width: 100%;
     
 }
 
-#banner-imgage {
+#banner-image {
     width: 60%;
-    margin: 32px 24px;
+    padding: 32px 24px;
 }
 
 #banner img {
     width: 100%;
+    overflow: hidden;
 }
 
 #banner-text {
-    width: 35%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -103,4 +105,62 @@ nav a {
     color: white;
     text-decoration: none;
     
+}
+
+
+/* FEATURES SECTION */
+
+#features {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+
+}
+
+#features-left {
+    width: 60%;
+    padding: 32px 24px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    border-right: 1px solid gray;
+    
+}
+
+#features-left img {
+   width: 100%;
+}
+
+#features-right {
+    width: 40%;
+    padding-left: 16px;
+    padding-top: 32px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+}
+
+#orientation-day {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+}
+
+
+#orientation-day-img {
+    width: 35%;
+}
+
+#orientation-day-img img {
+    width: 100%;
+}
+
+
+#orientation-day-text {
+    width: 65%;
+    padding-left: 24px;
 }
