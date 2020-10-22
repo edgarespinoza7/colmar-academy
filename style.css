@@ -3,12 +3,31 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+}
+
+p,a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+}
+
+a {
+    text-decoration: none;
+}
+
 /* HEADER SECTION */
 
 header {
     background-color: white;
     height: 64px;
-    font-family: 'Poppins', sans-serif;
+    
 }
 
 header img {
@@ -56,21 +75,25 @@ nav a {
 /* BANNER SECTION */
 
 #banner {
-    background-color: lavender;
+    background-color: rgb(216, 216, 216);
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     width: 100%;
     
 }
 
 #banner-image {
+    min-width: 60%;
     width: 60%;
     padding: 32px 24px;
+    
 }
 
 #banner img {
-    width: 100%;
-    overflow: hidden;
+    width: 100%
+    
+    
 }
 
 #banner-text {
@@ -78,13 +101,12 @@ nav a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.3rem;
+    
+    
 }
 
 #banner-text h1 {
-    font-size: 3.5rem;
-    font-weight: 600;
+    
     max-width: 70%;
 }
 
@@ -119,11 +141,12 @@ nav a {
 }
 
 #features-left {
+    min-width: 60%;
     width: 60%;
     padding: 32px 24px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.3rem;
-    border-right: 1px solid gray;
+    
+    border-right: 1px solid rgb(216, 216, 216);
+    
     
 }
 
@@ -133,11 +156,13 @@ nav a {
 
 #features-right {
     width: 40%;
-    padding-left: 16px;
-    padding-top: 32px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
+    padding-top: 32px;
+    padding-right: 32px;
+    
+    
     
 }
 
@@ -146,8 +171,7 @@ nav a {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.3rem;
+    padding: 0 0 16px 16px;
 }
 
 
@@ -163,4 +187,90 @@ nav a {
 #orientation-day-text {
     width: 65%;
     padding-left: 24px;
+}
+
+
+#our-campus {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 16px 0 16px 16px;
+}
+
+#our-campus-img {
+    width: 35%;
+}
+
+#our-campus-img img {
+    width: 100%;
+}
+
+#our-campus-text {
+    width: 65%;
+    padding-left: 24px;
+}
+
+#our-guest {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: rgb(216, 216, 216);
+    padding: 16px 0 16px 16px;
+    
+}
+
+#our-guest-img {
+    width: 35%;
+}
+
+#our-guest-img img {
+    width: 100%;  
+}
+
+#our-guest-text {
+    width: 65%;
+    padding-left: 24px;
+    
+}
+
+/* COURSES SECTION */
+
+#courses {
+    background-color: rgb(216, 216, 216);
+    padding: 32px 72px;
+    
+}
+
+#courses h1 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    text-align: center;
+   
+}
+
+#courses-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+#courses-cards h2, #courses-cards p {
+    padding: 0 24px;
+    margin-top: 16px;
+}
+
+.card-container {
+    max-width: 30%;
+    width: 30%;
+    margin: 16px;
+    background-color: white;
+}
+
+.card-container img {
+    width: 100%;
 }
