@@ -1,276 +1,342 @@
 body {
-    
-    margin: 0;
+  margin: 0;
 }
 
 h1 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 3.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 3.5rem;
 }
 
 h2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.8rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
 }
 
-p,a {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.3rem;
+p,
+a {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* HEADER SECTION */
 
 header {
-    background-color: white;
-    height: 64px;
-    
+  background-color: white;
+  height: 64px;
 }
 
 header img {
-    margin: 12px 10px 12px 24px;
-    height: 40px;
+  margin: 12px 10px 12px 24px;
+  height: 40px;
 }
 
-header p, nav {
-    display: inline-block;
+header p,
+nav {
+  display: inline-block;
 }
 
 header p {
-    font-size: 32px;
-    position: relative;
-    bottom: 23px;
-    text-transform: uppercase;
+  font-size: 32px;
+  position: relative;
+  bottom: 23px;
+  text-transform: uppercase;
 }
 
 #colmar-logo {
-    font-weight: 600;
-    color: rgb(82, 82, 82);
+  font-weight: 600;
+  color: rgb(82, 82, 82);
 }
 
 #academy-logo {
-    color: rgb(175, 175, 175);
+  color: rgb(175, 175, 175);
 }
 
 header nav {
-    position: relative;
-    top: 24px;
-    right: 8px;
+  position: relative;
+  top: 24px;
+  right: 8px;
 }
 
-
 nav {
-    float: right;
+  float: right;
 }
 
 nav a {
-    margin-right: 16px;
-    text-decoration: none;
-    color:  rgb(82, 82, 82);
+  margin-right: 16px;
+  text-decoration: none;
+  color: rgb(82, 82, 82);
 }
 
 /* BANNER SECTION */
 
 #banner {
-    background-color: rgb(216, 216, 216);
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width: 100%;
-    
+  background-color: rgb(216, 216, 216);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
 }
 
 #banner-image {
-    min-width: 60%;
-    width: 60%;
-    padding: 32px 24px;
-    
+  min-width: 60%;
+  width: 60%;
+  padding: 32px 24px;
 }
 
 #banner img {
-    width: 100%
-    
-    
+  width: 100%;
 }
 
 #banner-text {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-    
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #banner-text h1 {
-    
-    max-width: 70%;
+  max-width: 70%;
 }
 
 #banner-description {
-    position: relative;
-    bottom: 40px;
+  position: relative;
+  bottom: 40px;
 }
 
 #cta-button {
-    background-color:  rgb(82, 82, 82);
-    max-width: 500px;
-    text-align: center;
+  background-color: rgb(82, 82, 82);
+  max-width: 500px;
+  text-align: center;
 }
-
-
 
 #cta-button a {
-    color: white;
-    text-decoration: none;
-    
+  color: white;
+  text-decoration: none;
 }
-
 
 /* FEATURES SECTION */
 
 #features {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width: 100%;
-
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
 }
 
 #features-left {
-    min-width: 60%;
-    width: 60%;
-    padding: 32px 24px;
-    
-    border-right: 1px solid rgb(216, 216, 216);
-    
-    
+  min-width: 60%;
+  width: 60%;
+  padding: 32px 24px;
+  border-right: 1px solid rgb(216, 216, 216);
 }
 
 #features-left img {
-   width: 100%;
+  width: 100%;
 }
 
 #features-right {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    padding-top: 32px;
-    padding-right: 32px;
-    
-    
-    
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding-top: 32px;
+  padding-right: 32px;
+  
 }
 
 #orientation-day {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    padding: 0 0 16px 16px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 0 0 16px 16px;
 }
 
-
 #orientation-day-img {
-    width: 35%;
+  width: 35%;
 }
 
 #orientation-day-img img {
-    width: 100%;
+  width: 100%;
 }
-
 
 #orientation-day-text {
-    width: 65%;
-    padding-left: 24px;
+  width: 65%;
+  padding-left: 24px;
 }
 
-
 #our-campus {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    padding: 16px 0 16px 16px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 16px 0 16px 16px;
 }
 
 #our-campus-img {
-    width: 35%;
+  width: 35%;
 }
 
 #our-campus-img img {
-    width: 100%;
+  width: 100%;
 }
 
 #our-campus-text {
-    width: 65%;
-    padding-left: 24px;
+  width: 65%;
+  padding-left: 24px;
 }
 
 #our-guest {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    background-color: rgb(216, 216, 216);
-    padding: 16px 0 16px 16px;
-    
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: rgb(216, 216, 216);
+  padding: 16px 0 16px 16px;
 }
 
 #our-guest-img {
-    width: 35%;
+  width: 35%;
 }
 
 #our-guest-img img {
-    width: 100%;  
+  width: 100%;
 }
 
 #our-guest-text {
-    width: 65%;
-    padding-left: 24px;
-    
+  width: 65%;
+  padding-left: 24px;
 }
 
 /* COURSES SECTION */
 
 #courses {
-    background-color: rgb(216, 216, 216);
-    padding: 32px 72px;
-    
+  background-color: rgb(216, 216, 216);
+  padding: 32px 72px;
 }
 
 #courses h1 {
-    margin-top: 0;
-    margin-bottom: 16px;
-    text-align: center;
-   
+  margin-top: 0;
+  margin-bottom: 16px;
+  text-align: center;
 }
 
 #courses-cards {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-    
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
-#courses-cards h2, #courses-cards p {
-    padding: 0 24px;
-    margin-top: 16px;
+#courses-cards h2,
+#courses-cards p {
+  padding: 0 24px;
+  margin-top: 16px;
 }
 
 .card-container {
-    max-width: 30%;
-    width: 30%;
-    margin: 16px;
-    background-color: white;
+  max-width: 30%;
+  width: 30%;
+  margin: 16px;
+  background-color: white;
 }
 
 .card-container img {
+  width: 100%;
+}
+
+/* THESIS SECTION */
+
+#thesis-container {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#thesis h1 {
+  margin: 0 auto;
+  text-align: center;
+  padding: 32px 0;
+}
+
+#thesis-left {
+    width: 60%;
+    padding: 0 24px;
+}
+
+#thesis-left video {
     width: 100%;
 }
+
+#thesis-right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+#fisma {
+  background-color: rgb(216, 216, 216);
+}
+
+#fisma-img {
+  width: 35%;
+  min-width: 35%;
+}
+
+#fisma-img img {
+  width: 100%;
+}
+
+#now-and-then-img {
+  width: 35%;
+  min-width: 35%;
+}
+
+#now-and-then-img img {
+  width: 100%;
+}
+
+
+#fisma, #now-and-then {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 16px;
+}
+
+#fisma-text, #now-and-then-text {
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+footer {
+  padding-left: 24px;
+  border-top: 1px solid rgb(216, 216, 216);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#footer-menu {
+  float: right;
+  padding-right: 34px;
+}
+
+#footer-menu a {
+padding-left: 16px;
+padding-bottom: 32px;
+}
+
