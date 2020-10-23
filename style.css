@@ -1,32 +1,51 @@
+
+/* 
+
+1. Global Style
+2. Header 
+3. Banner Section
+4. Fearures Section
+5. Courses Section
+6. Thesis Section
+7. Footer 
+8. Media Queries
+
+
+*/
+
+/* 1. GLOBAL STYLE */
+
 body {
   margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 h1 {
-  font-family: "Poppins", sans-serif;
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 h2 {
-  font-family: "Poppins", sans-serif;
   font-size: 1.8rem;
 }
 
-p,
-a {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.3rem;
+p, a {
+  color: rgb(109, 108, 108);
+  font-size: 1.2rem;
 }
 
 a {
   text-decoration: none;
 }
 
-/* HEADER SECTION */
+/* 2. HEADER */
 
 header {
   background-color: white;
   height: 64px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 header img {
@@ -34,36 +53,36 @@ header img {
   height: 40px;
 }
 
-header p,
-nav {
-  display: inline-block;
-}
-
-header p {
-  font-size: 32px;
-  position: relative;
-  bottom: 23px;
-  text-transform: uppercase;
-}
-
-#colmar-logo {
+#logo-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
   font-weight: 600;
   color: rgb(82, 82, 82);
 }
 
+#logo-group p {
+  margin: 0;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+#nav-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
 #academy-logo {
   color: rgb(175, 175, 175);
+  font-weight: 400;
 }
 
-header nav {
-  position: relative;
-  top: 24px;
-  right: 8px;
-}
 
-nav {
-  float: right;
-}
 
 nav a {
   margin-right: 16px;
@@ -71,7 +90,9 @@ nav a {
   color: rgb(82, 82, 82);
 }
 
-/* BANNER SECTION */
+
+
+/* 3. BANNER SECTION */
 
 #banner {
   background-color: rgb(216, 216, 216);
@@ -118,7 +139,7 @@ nav a {
   text-decoration: none;
 }
 
-/* FEATURES SECTION */
+/* 4. FEATURES SECTION */
 
 #features {
   display: flex;
@@ -212,7 +233,7 @@ nav a {
   padding-left: 24px;
 }
 
-/* COURSES SECTION */
+/* 5. COURSES SECTION */
 
 #courses {
   background-color: rgb(216, 216, 216);
@@ -250,7 +271,7 @@ nav a {
   width: 100%;
 }
 
-/* THESIS SECTION */
+/* 6. THESIS SECTION */
 
 #thesis-container {
     
@@ -320,6 +341,7 @@ nav a {
   justify-content: center;
 }
 
+/* 7. FOOTER */
 
 footer {
   padding-left: 24px;
@@ -339,4 +361,7 @@ footer {
 padding-left: 16px;
 padding-bottom: 32px;
 }
+
+
+/* 8. MEDIA QUERIES */
 
